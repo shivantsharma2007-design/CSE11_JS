@@ -25,3 +25,9 @@ if(sym1===sym2){
 }
 else{    console.log("false");
 }
+var count ;
+document.write("startingloop"+"<br>");
+for(count=0;count<10;count++){
+    document.write("currentcount="+count+"<br>");
+    document.write("<br/>");
+}
